@@ -141,9 +141,39 @@ body{
 
 
 
-.lets-work{
+.latest-work{
     margin-top: 150px;
 }
-.lets-work h1{
+.latest-work h1{
     text-align: center;
+}
+.work-list1{
+    display: flex;
+    margin-top: 50px;
+}
+.work-list2{
+    display: flex;
+}
+.thirty-width{
+    width: 30%;
+}
+.thirty-width img{
+    width: 100%;
+    border: 5px solid white;
+    border-radius: 4px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.171);
+
+}
+.team-section{
+    margin-left: 100px;
+}
+.toogle-table{
+    margin-left: 100px;
+}
+.right-margin{
+    margin-right: 100px;
+}
+.LWork-p-margin{
+    margin-bottom: 30px;
+    margin-top: 10px;
 }
