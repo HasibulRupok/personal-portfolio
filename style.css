@@ -62,12 +62,37 @@ body{
 }
 .about-me-info{
     margin-left: 100px;
-    width: 35%;
+    width: 42%;
 }
-.about-me-info h3{
+.about-me-info h2{
     margin-top: 60px;
     margin-bottom: 10px;
 }
 .about-me-info p{
     margin-bottom: 50px;
+}
+.about-me-bottom{
+    display: flex;
+}
+.project{
+    width: 33%;
+    text-align: center;
+}
+.claint{
+    width: 33%;
+    text-align: center;
+}
+.review{
+    width: 33%;
+    text-align: center;
+}
+.about-me-info a{
+    background-color: #DC3545;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    display: inline-block;
+    width: 150px;
+    text-align: center;
+    border-radius: 5px;
 }
