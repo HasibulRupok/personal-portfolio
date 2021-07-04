@@ -5,3 +5,69 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+.red-text{
+    color: #DC3545;
+}
+.gray-text{
+    color: gray;
+}
+.UK{
+    color: #DC3545;
+    margin-left: 100px;
+    font-weight: bolder;
+    padding: 10px;
+}
+.topBar{
+    border-bottom: 1px solid rgba(77, 77, 77, 0.103);
+}
+.profile{
+    display: flex;
+    margin-top: 100px;
+}
+.profile-info{
+    margin-left: 100px;
+    margin-top: 30px;
+    width: 40%;
+}
+.profile-info p{
+    margin: 5px 0;
+}
+.profile-info h3{
+    margin: 5px 0;
+}
+.profile-info a{
+    background-color: #DC3545;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    border-radius: 5px;
+}
+.profile-dp img{
+    width: 100%;
+}
+.profile-dp{
+    margin-left: 60px;
+}
+.about-me{
+    margin-top: 150px;
+}
+.about-me h1{
+    text-align: center;
+}
+.about-me-flex{
+    display: flex;
+}
+.about-me-info{
+    margin-left: 100px;
+    width: 35%;
+}
+.about-me-info h3{
+    margin-top: 60px;
+    margin-bottom: 10px;
+}
+.about-me-info p{
+    margin-bottom: 50px;
+}
