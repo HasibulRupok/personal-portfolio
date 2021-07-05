@@ -11,6 +11,12 @@ body{
 .gray-text{
     color: gray;
 }
+.white-text{
+    color: white;
+}
+.center-text{
+    text-align: center;
+}
 .UK{
     color: #DC3545;
     margin-left: 100px;
@@ -162,7 +168,6 @@ body{
     border: 5px solid white;
     border-radius: 4px;
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.171);
-
 }
 .team-section{
     margin-left: 100px;
@@ -176,4 +181,59 @@ body{
 .LWork-p-margin{
     margin-bottom: 30px;
     margin-top: 10px;
+}
+
+
+
+.freelancer-projects{
+    margin-top: 150px;
+    background-color: #DC3545;
+}
+.freeLn-p1{
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+#hire-me-btn{
+    margin-top: 15px;
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 10px 20px;
+    background-color: #DC3545;
+    margin-bottom: 60px;
+}
+
+
+
+.testimonial{
+    margin-top: 150px;
+}
+.testimonial h1{
+    margin-bottom: 50px;
+}
+.testimonial-img{
+    display: flex;
+}
+.testimonial-container {
+    width: 800px;
+    margin: 0 auto;
+    padding: 20px 0 0px 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.137);
+}
+.img-testtt{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+}
+.inline{
+    display: inline-block;
+}
+.testimonial-p1{
+    margin-bottom: 10px;
+}
+.testimonial-p2{
+    margin-left: 30px;
+    margin-right:30px;
+    padding-bottom: 50px;
 }
