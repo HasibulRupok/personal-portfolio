@@ -22,6 +22,13 @@ body{
     margin-left: 100px;
     font-weight: bolder;
     padding: 10px;
+    display: inline-block;
+}
+.menu-icon{
+    margin-right: 100px;
+    float: right;
+    width: 30px;
+    margin-top: 15px;
 }
 .topBar{
     border-bottom: 1px solid rgba(77, 77, 77, 0.103);
@@ -320,4 +327,32 @@ body{
 }
 .footer-text{
     text-align: center;
+    padding: 20px;
+    border-top: 1px solid rgba(0, 0, 0, 0.103);
 }
+
+
+
+
+/* Skill Bar */
+.skill-bar{
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.sikllBar-container {
+    width: 500px; /* Full width */
+    background-color: #ddd;
+    margin-bottom: 25px; /* Grey background */
+}
+.skills {
+    text-align: right; /* Right-align text */
+    padding-top: 2px; /* Add top padding */
+    padding-bottom: 2px; /* Add bottom padding */
+    color: white; /* White text color */
+}
+
+.html {width: 30%; background-color: #DC3545;} /* Green */
+.css {width: 50%; background-color: #DC3545;} /* Blue */
+.js {width: 80%; background-color: #DC3545;} /* Red */
+.php {width: 100%; background-color: #DC3545;} /* Dark Grey *
