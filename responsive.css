@@ -1,0 +1,384 @@
+@media screen and (max-width: 720px){
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        font-family: 'Poppins', sans-serif;
+    }
+    .red-text{
+        color: #DC3545;
+    }
+    .gray-text{
+        color: gray;
+    }
+    .white-text{
+        color: white;
+    }
+    .center-text{
+        text-align: center;
+    }
+
+
+    
+    .profile{
+        display: flex;
+        flex-direction: column;
+        margin-top: 100px;
+    }
+    .profile-info{
+        margin-left: 7%;
+        margin-right: 7%;
+        margin-top: 3%;
+        width: 85%;
+    }
+    .profile-info p{
+        margin: 1% 0;
+        width: 100%;  
+    }
+    .profile-info h3{
+        margin: 1% 0;
+    }
+    .profile-info a{
+        background-color: #DC3545;
+        color: white;
+        text-decoration: none;
+        padding: 1%;
+        display: inline-block;
+        width: 20%;
+        text-align: center;
+        border-radius: 5px;
+    }
+    .profile-dp img{
+        width: 80%;
+    }
+    .profile-dp{
+        width: 100%;
+        margin-left: 7%;
+        margin-top: 100px;
+    }
+
+    /* about-me */
+
+    .about-me{
+        margin-top: 150px;
+    }
+    .about-me h1{
+        text-align: center; 
+    }
+    #h1-center{
+        text-align: center;
+    }
+    .about-me-flex{
+        display: flex;
+        flex-direction: column;
+    }
+    .about-me-info{
+        margin-left: 7%;
+        width: 100%;
+    }
+    .about-me-info h2{
+        margin-top: 60px;
+        margin-bottom: 10px;
+        width: 86%;
+    }
+    .about-me-info p{
+        margin-bottom: 50px;
+        width: 80%;
+    }
+    .about-me-bottom{
+        display: flex;
+        flex-direction: column;
+    }
+    .project{
+        width: 100%;
+        text-align: center;
+    }
+    .claint{
+        width: 100%;
+        text-align: center;
+    }
+    .review{
+        width: 100%;
+        text-align: center;
+    }
+    .about-me-info a{
+        background-color: #DC3545;
+        color: white;
+        text-decoration: none;
+        padding: 5px;
+        display: inline-block;
+        width: 15%;
+        text-align: center;
+        border-radius: 5px;
+    }
+    /* Skill Bar */
+    .skill-bar{
+        margin-top: 50px;
+        margin-left: 7%;
+        margin-right: 7%;
+    }
+    .sikllBar-container {
+        width: 80%; /* Full width */
+        background-color: #ddd;
+        margin-bottom: 25px; /* Grey background */
+    }
+    .skills {
+        text-align: right; /* Right-align text */
+        padding-top: 2px; /* Add top padding */
+        padding-bottom: 2px; /* Add bottom padding */
+        color: white; /* White text color */
+    }
+
+    .html {width: 30%; background-color: #DC3545;} /* Green */
+    .css {width: 50%; background-color: #DC3545;} /* Blue */
+    .js {width: 80%; background-color: #DC3545;} /* Red */
+    .php {width: 100%; background-color: #DC3545;} /* Dark Grey */
+
+    /* what i do */
+
+    .what-i-do{
+        margin-top: 150px;
+    }
+    .what-i-do h1{
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .do-three{
+        display: flex;
+        flex-direction: column;
+    }
+    .do-three div{
+        width: 82%;
+        margin: 0 auto 25px auto;
+        
+        box-shadow: 0 0 12px #0000002b;
+        border-radius: 5px;
+    }
+    .do-three img{
+        display: block;
+        padding-top: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 8%;
+        margin-bottom: 10px;
+    }
+    .do-three h3{
+        text-align: center;
+        margin-bottom: 5px;
+    }
+    .do-three p{
+        text-align:center;
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+    }
+    .web-develop{
+        margin-left: 7%;
+    }
+    .photoshop{
+        margin-right: 7%;
+    }
+    .left-margin{
+        margin-left: 3%;
+    }
+    
+    /* latest work */
+
+    
+    .latest-work{
+        margin-top: 150px;
+    }
+    .latest-work h1{
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .work-list1{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin: 15px auto 0 auto;
+    }
+    .work-list2{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin: 15px auto 0 auto;
+    }
+    .thirty-width{
+        width: 80%;
+        margin: 0 auto 0 auto;
+    }
+
+    .thirty-width img{
+        width: 100%;
+        border: 5px solid white;
+        border-radius: 4px;
+        box-shadow: 0 0 3px rgba(0, 0, 0, 0.171);
+    }
+    .team-section{
+        margin: 0 auto 0 auto;
+    }
+    .right-margin{
+        margin-right: 7%;
+    } 
+
+    .toogle-table{
+        margin: 0 auto 0 auto;
+    }
+    .LWork-p-margin{
+        margin-bottom: 30px;
+        margin-top: 10px;
+        margin-left: 7%;
+    }
+   .lWork-title{
+        margin-left: 7%;
+    }
+    
+    /* freelacher */
+
+    .freelancer-projects{
+        margin-top: 150px;
+        width: 100%;
+        background-color: #DC3545;
+    }
+    .freeLn-p1{
+        padding-top: 100px;
+        padding-bottom: 20px;
+    }
+    #hire-me-btn{
+        margin-top: 15px;
+        border: 1px solid white;
+        border-radius: 4px;
+        padding: 10px 20px;
+        background-color: #DC3545;
+        margin-bottom: 60px;
+    }
+    /* testimonial */
+
+    .testimonial{
+        margin-top: 150px;
+    }
+    .testimonial h1{
+        margin-bottom: 50px;
+    }
+    .testimonial-img{
+        display: flex;
+        flex-direction: column;
+    }
+    .testimonial-container {
+        width: 60%;
+        margin: 0 auto;
+        padding: 20px 0 0px 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.137);
+    }
+    .img-testtt{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 10%;
+    }
+    .testimonial-p1{
+        margin-bottom: 10px;
+    }
+    .testimonial-p2{
+        margin-left: 5%;
+        margin-right: 5%;
+        padding-bottom: 50px;
+    }
+
+    /* contact me */
+
+    .contact-me-container{
+        display: flex;
+        flex-direction: column;
+    }
+    #contact-me-title{
+        margin-top: 150px;
+        text-align: center;
+    }
+    .address{
+        width: 100%;
+        margin-left: 7%;
+        margin-top: 50px;
+    }
+    .sms-box{
+        width: 100%;
+        margin-right: 7%;
+    }
+    .contact-h4{
+        display: inline;
+        vertical-align: bottom;
+        margin-left: 3%;
+    }
+    .contact-p{
+        margin-left: 11.5%;
+    }
+    
+    .phone{
+        margin-top: 20px;
+    }
+    .address-icon{
+        margin-top: 20px;
+    }
+    .sms-box{
+        
+        margin: 50px 7% 0 7%;
+    }
+    #inputName{
+        width: 36%;
+        padding: 10px;
+        border: 0px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.185);
+    }
+    #inputEmail{
+        margin-left: 6.5%;
+        width: 36%;
+        padding: 10px;
+        border: 0px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.185);
+    }
+    #inputSub{
+        margin-top: 30px;
+        width: 82.5%;
+        padding: 10px;
+        border: 0px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.185);
+    }
+    #inputSMS{
+        margin-top: 30px;
+        width: 82.5%;
+        height: 120px;
+        padding: 10px;
+        border: 0px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.185);
+        vertical-align: top;
+    }
+    #message-btn{
+        margin-top: 30px;
+        background-color: #DC3545;
+        color: white;
+        padding:  10px 25px;
+        border: 0px;
+        border-radius: 5px;
+    }
+    .topBar{
+        display: none;
+    }
+    .futtet{
+        margin-top: 100px;
+    }
+    .footer-text{
+        text-align: center;
+        padding: 20px;
+        border-top: 1px solid rgba(0, 0, 0, 0.103);
+    }
+    
+    
+
+}

@@ -19,13 +19,13 @@ body{
 }
 .UK{
     color: #DC3545;
-    margin-left: 100px;
+    margin-left: 7%;
     font-weight: bolder;
     padding: 10px;
     display: inline-block;
 }
 .menu-icon{
-    margin-right: 100px;
+    margin-right: 7%;
     float: right;
     width: 30px;
     margin-top: 15px;
@@ -33,28 +33,29 @@ body{
 .topBar{
     border-bottom: 1px solid rgba(77, 77, 77, 0.103);
 }
+
 .profile{
     display: flex;
     margin-top: 100px;
 }
 .profile-info{
-    margin-left: 100px;
-    margin-top: 30px;
+    margin-left: 7%;
+    margin-top: 3%;
     width: 40%;
 }
 .profile-info p{
-    margin: 5px 0;
+    margin: 1% 0;  
 }
 .profile-info h3{
-    margin: 5px 0;
+    margin: 1% 0;
 }
 .profile-info a{
     background-color: #DC3545;
     color: white;
     text-decoration: none;
-    padding: 5px;
+    padding: 1%;
     display: inline-block;
-    width: 100px;
+    width: 20%;
     text-align: center;
     border-radius: 5px;
 }
@@ -64,6 +65,8 @@ body{
 .profile-dp{
     margin-left: 60px;
 }
+
+/* about me */
 .about-me{
     margin-top: 150px;
 }
@@ -221,7 +224,7 @@ body{
     display: flex;
 }
 .testimonial-container {
-    width: 800px;
+    width: 60%;
     margin: 0 auto;
     padding: 20px 0 0px 20px;
     border-radius: 5px;
@@ -238,8 +241,8 @@ body{
     margin-bottom: 10px;
 }
 .testimonial-p2{
-    margin-left: 30px;
-    margin-right:30px;
+    margin-left: 5%;
+    margin-right: 5%;
     padding-bottom: 50px;
 }
 
@@ -264,10 +267,10 @@ body{
 .contact-h4{
     display: inline;
     vertical-align: bottom;
-    margin-left: 15px;
+    margin-left: 3%;
 }
 .contact-p{
-    margin-left: 59px;
+    margin-left: 11.5%;
 }
 
 .phone{
@@ -287,7 +290,7 @@ body{
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.185);
 }
 #inputEmail{
-    margin-left: 50px;
+    margin-left: 6.5%;
     width: 40%;
     padding: 10px;
     border: 0px;
@@ -355,4 +358,6 @@ body{
 .html {width: 30%; background-color: #DC3545;} /* Green */
 .css {width: 50%; background-color: #DC3545;} /* Blue */
 .js {width: 80%; background-color: #DC3545;} /* Red */
-.php {width: 100%; background-color: #DC3545;} /* Dark Grey *
+.php {width: 100%; background-color: #DC3545;} /* Dark Grey */
+
+
